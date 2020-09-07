@@ -1,24 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { FaStar, FaRegStar } from "react-icons/fa";
-// import "./styles.scss";
-// import App from "./App";
+import BrowseProducts from "./BrowseProducts";
+import "./styles/center-lesson.scss";
+//import "./styles/center-lesson.scss"
+// import "styles/StarRatings.scss";
+//import "~/styles/center-lesson.scss";
 
-function Button(props: any) {
-  return <button className="render_button">{props.children}</button>;
-}
-
-function App() {
-  return (
-    <div>
-      <Button>
-        <FaStar /> Add
-      </Button>
-      <Button>
-        <FaRegStar /> Subtract
-      </Button>
-    </div>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<BrowseProducts />, document.getElementById("root"));
