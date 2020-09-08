@@ -1,6 +1,6 @@
 import React from "react";
-import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import Heading from "./Heading";
+import StarRatings from "./StarRatings";
 
 const products = [
   {
@@ -27,11 +27,5 @@ const products = [
 ];
 
 export default function BrowseProducts() {
-  console.log(products);
-
-  return (
-    <div>
-      {/* Exercise code goes here! This is what comments look like in JSX */}
-    </div>
-  );
+  return <div>{"ya ya"}</div>;
 }
